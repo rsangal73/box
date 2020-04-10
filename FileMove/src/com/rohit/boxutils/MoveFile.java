@@ -1,4 +1,4 @@
-package com.rohit.box.filemove;
+package com.rohit.boxutils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,7 +20,7 @@ import com.box.sdk.Metadata;
  * Moves new files from Upload to a new folder
  * Also checks if the sub folder exists
  */
-public class MvFolder {
+public class MoveFile {
 
 	
     final static String BOX_CONFIG = String.join("", System.getProperty("user.dir"), File.separator, "config.json");
@@ -39,7 +39,6 @@ public class MvFolder {
 
 
 	  static {
-	        System.out.println("Searching for file..");
 	        Path configPath = Paths.get(BOX_CONFIG);
 	        System.out.println(configPath.toString());
 	        try (BufferedReader reader = Files.newBufferedReader(configPath, Charset.forName("UTF-8"))) {
