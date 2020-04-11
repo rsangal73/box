@@ -1,0 +1,7 @@
+com/box/helper/BoxHelper.class
+com/box/boxwebapp/LogoutServlet.class
+com/box/boxwebapp/LoginServlet.class
+com/box/boxwebapp/Auth0Filter.class
+com/box/boxwebapp/CallbackServlet.class
+com/box/boxwebapp/AuthenticationControllerProvider.class
+com/box/boxwebapp/DashboardServlet.class
