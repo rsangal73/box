@@ -59,7 +59,7 @@ package com.rohit.boxutils;
 	        for(BoxUser.Info o : users){
 	        	if(o.getLogin().startsWith("AppUser_"))
 	        		
-	 	           System.out.println("App User Name: " + o.getName()  + "  User Id: " + o.getID());
+	 	           System.out.println("App User Name: " + o.getName()  + "  User Id: " + o.getID() + "  Email: " + o.getLogin());
 	        	else   		
 	        		System.out.println("Managed User Name: " + o.getName()  + "  User Id: " + o.getID() + "  Email: " + o.getLogin());
 	        }

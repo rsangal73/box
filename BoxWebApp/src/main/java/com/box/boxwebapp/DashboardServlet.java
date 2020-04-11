@@ -24,6 +24,6 @@ public class DashboardServlet extends HttpServlet
         request.setAttribute("rootFolder", rootFolder);
         request.setAttribute("accessToken", userClient.getAccessToken());
 
-        request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+        request.getRequestDispatcher("dash.jsp").forward(request, response);
     }
 }
